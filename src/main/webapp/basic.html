@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<!-- css : 기존 태그의 렌더링을 재정의한다. -->
+	<style>
+		/* tag 선택자 */
+		h1 { font-family:"궁서체"; font-size:50px; color:blueviolet; }
+		
+		/* class 선택자 */
+		.title { font-size:60px; color:blue; }
+		
+		/* id 선택자 */
+		#title { font-size:30px; color:green; }
+	</style>
 </head>
 <body>
-	<h1>HTML Basic</h1>	
+	HTML Basic
+	<h1>HTML Basic</h1> <!-- HeadLine 1 ~ 6 -->
+	<h1 class="title">HTML Basic</h1><!-- class : 속성(attribute), 태그의 부가정보 -->
+	<h1 class="title">HTML Basic</h1>
+	<h1 id="title">HTML Basic</h1>
+	<h1>HTML Basic</h1>
+	<font face="궁서체" size="7" color="red">HTML Basic</font><br>
+	<button type="button" onClick="changeContent()">내용바꾸기</button>
+	<!-- onXXX() : 이벤트 -->
+	
+	<script>
+		/* 자바스크립트 */
+		function changeContent() {
+			document.getElementById('title').innerText = 'HTML 기본'
+		}
+	</script>	
 </body>
 </html>
