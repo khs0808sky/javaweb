@@ -43,7 +43,7 @@ public class CalcServlet2 extends HttpServlet {
 		CalcService calc = new CalcService(num1, num2, op);
 		int result = calc.getResult();
 		
-		// 출력
+		// 출력 - 제어넘김
 		RequestDispatcher rd = request.getRequestDispatcher("calc2.jsp");
 		request.setAttribute("result", Integer.toString(result));
 		rd.forward(request, response);

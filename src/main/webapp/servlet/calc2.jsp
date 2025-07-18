@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+	String result1 = (String)request.getAttribute("result");	
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +23,7 @@
         <button type="submit">계산</button>
         <button type="reset">초기화</button>
     </form>
-    <h3>결과: </h3>
-    <h3>결과: </h3>
+    <h3>결과: <%=result1 %></h3>
+    <h3>결과: ${result}</h3> <%-- EL --%>
 </body>
 </html>
