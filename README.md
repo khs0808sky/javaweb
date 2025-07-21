@@ -57,12 +57,6 @@
     }
 
 ---
-
-### 📚 관련 키워드
-
-`Servlet`, `HttpServlet`, `doGet`, `doPost`, `init`, `destroy`, `request`, `response`
-
-<br><br><br>
 [목차로 돌아가기](#-목차)
 <br><br><br>
 # 2025-07-18
@@ -115,11 +109,5 @@
     }
 
 ---
-
-### 📚 관련 키워드
-
-`HttpServletRequest`, `HttpServletResponse`, `getParameter`, `setContentType`, `getWriter`, `sendRedirect`
-
-<br><br><br>
 [목차로 돌아가기](#-목차)
 <br><br><br>
