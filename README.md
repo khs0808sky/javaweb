@@ -1,4 +1,4 @@
-# javaweb
+# javaweb - Servlet과 Request, Response
 
 ## 📅 목차
 
